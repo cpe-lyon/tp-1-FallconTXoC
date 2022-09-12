@@ -1,4 +1,4 @@
-##**Exercice 2. Prise en main de l'interpréteur de commandes**
+**##Exercice 2. Prise en main de l'interpréteur de commandes**
 
 A tout moment, vous pouvez sortir de la VM pour revenir dans le système
 hôte en appuyant sur la touche **CTRL (droite)** du clavier.
@@ -251,7 +251,7 @@ hôte en appuyant sur la touche **CTRL (droite)** du clavier.
 On peut utiliser jusqu'à 6 shells en parallèle. Ils portent les noms
 **ttyX** (où X va de 1 à 6) et sont accessibles via **Alt + FX**
 
-##**Exercice 3. Découverte de l'éditeur de texte nano**
+**##Exercice 3. Découverte de l'éditeur de texte nano**
 
 1.  Copiez le fichier /var/log/syslog dans votre dossier personnel sous
     > le nom log.txt, puis ouvrez-le avec nano
@@ -276,7 +276,7 @@ On peut utiliser jusqu'à 6 shells en parallèle. Ils portent les noms
 
 > **CTRL + X -\> y**
 
-##**Exercice 4. Personnalisation du shell**
+**##Exercice 4. Personnalisation du shell**
 
 Le shell par défaut est plutôt austère, mais il existe de nombreux
 moyens de le personnaliser, en modifiant le fichier **\~/.bashrc**.
