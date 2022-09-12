@@ -47,16 +47,16 @@ hôte en appuyant sur la touche **CTRL (droite)** du clavier.
 > intégrée au shell, il faut utiliser l'option --s ou se connecter en
 > root à l'aide de « sudo --s »**
 
-![](tp_files/media/image1.png)
+> ![](tp_files/media/image1.png)
 
 > 7\. à partir de votre dossier personnel, créez l'arborescence suivante
 > :
 
-![](tp_files/media/image2.jpeg)
-
-![](tp_files/media/image3.png)
-
-![](tp_files/media/image4.png)
+> ![](tp_files/media/image2.jpeg)
+>
+> ![](tp_files/media/image3.png)
+>
+> ![](tp_files/media/image4.png)
 
 8.  revenez dans votre dossier personnel ; à l'aide de la commande rm,
     essayez de supprimer Fichier1, puis Dossier1 ; que se passe-t-il ?
@@ -220,7 +220,7 @@ hôte en appuyant sur la touche **CTRL (droite)** du clavier.
 21. A l'aide de la commande **find**, recherchez tous les fichiers se
     nommant **passwd** présents sur la machine
 
-![](tp_files/media/image11.png)
+> ![](tp_files/media/image11.png)
 
 22. Modifiez la commande précédente pour que la liste des fichiers
     trouvés soit enregistrée dans le fichier
