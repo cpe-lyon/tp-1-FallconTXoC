@@ -47,20 +47,16 @@ hôte en appuyant sur la touche **CTRL (droite)** du clavier.
 > intégrée au shell, il faut utiliser l'option --s ou se connecter en
 > root à l'aide de « sudo --s »**
 
-![](tp_files/media/image1.png){width="6.5in"
-height="2.191666666666667in"}
+![](tp_files/media/image1.png)
 
 > 7\. à partir de votre dossier personnel, créez l'arborescence suivante
 > :
 
-![](tp_files/media/image2.jpeg){width="1.8444444444444446in"
-height="1.0694444444444444in"}
+![](tp_files/media/image2.jpeg)
 
-![](tp_files/media/image3.png){width="5.198611111111111in"
-height="0.4166666666666667in"}
+![](tp_files/media/image3.png)
 
-![](tp_files/media/image4.png){width="5.542361111111111in"
-height="0.5in"}
+![](tp_files/media/image4.png)
 
 8.  revenez dans votre dossier personnel ; à l'aide de la commande rm,
     > essayez de supprimer Fichier1, puis Dossier1 ; que se passe-t-il ?
@@ -176,18 +172,15 @@ height="0.5in"}
 
 > **5 premières lignes :**
 >
-> ![](tp_files/media/image5.png){width="6.638888888888889in"
-> height="0.95in"}
+> ![](tp_files/media/image5.png)
 >
 > **15 dernières lignes :**
 >
-> ![](tp_files/media/image6.png){width="6.638888888888889in"
-> height="1.7041666666666666in"}
+> ![](tp_files/media/image6.png)
 >
 > **Lignes 10 à 20 :**
 >
-> ![](tp_files/media/image7.png){width="6.638888888888889in"
-> height="1.3444444444444446in"}
+> ![](tp_files/media/image7.png)
 
 16. Que fait la commande **dmesg \| less** ?
 
@@ -200,8 +193,7 @@ height="0.5in"}
 17. Aﬀichez à l'écran le fichier **/etc/passwd** ; que contient-il ?
     > Quelle commande permet d'aﬀicher la page de manuel de ce fichier ?
 
-> ![](tp_files/media/image8.png){width="4.845972222222223in"
-> height="3.765766622922135in"}
+> ![](tp_files/media/image8.png)
 >
 > **Le fichier « passwd » est une base de données textuelle
 > d\'informations sur les utilisateurs qui peuvent se connecter au
@@ -211,8 +203,7 @@ height="0.5in"}
 18. Aﬀichez seulement la première colonne triée par ordre alphabétique
     > inverse
 
-> ![](tp_files/media/image9.png){width="4.180179352580927in"
-> height="4.091416229221347in"}
+> ![](tp_files/media/image9.png)
 
 19. Quelle commande nous donne le nombre d'utilisateurs ayant un compte
     > sur cette machine (pas seulement les utilisateurs connectés) ?
@@ -224,14 +215,12 @@ height="0.5in"}
 
 > **Aucune description ne contient le mot clé « conversion »**
 >
-> ![](tp_files/media/image10.png){width="5.6570395888014in"
-> height="0.6042508748906387in"}
+> ![](tp_files/media/image10.png)
 
 21. A l'aide de la commande **find**, recherchez tous les fichiers se
     > nommant **passwd** présents sur la machine
 
-![](tp_files/media/image11.png){width="3.56422353455818in"
-height="2.2162160979877514in"}
+![](tp_files/media/image11.png)
 
 22. Modifiez la commande précédente pour que la liste des fichiers
     > trouvés soit enregistrée dans le fichier
@@ -249,8 +238,7 @@ height="2.2162160979877514in"}
 24. Utilisez la commande **locate** pour trouver le fichier
     > **history.log**.
 
-> ![](tp_files/media/image12.png){width="3.2087806211723535in"
-> height="0.34379811898512685in"}
+> ![](tp_files/media/image12.png)
 
 25. Créer un fichier dans votre dossier personnel puis utilisez locate
     > pour le trouver. Apparaît-il ? Pourquoi ?
@@ -311,8 +299,7 @@ moyens de le personnaliser, en modifiant le fichier **\~/.bashrc**.
     > Testez-la, l'invite de commande devrait immédiatement passer en
     > couleurs.
 
-> ![](tp_files/media/image13.png){width="3.5317432195975504in"
-> height="0.4271434820647419in"}
+> ![](tp_files/media/image13.png)
 
 4.  Les couleurs par défauts (surtout celle du dossier courant) ne sont
     > pas très visibles. Dans **.bashrc**, cherchez les lignes
@@ -327,8 +314,6 @@ moyens de le personnaliser, en modifiant le fichier **\~/.bashrc**.
 > où l'heure est aﬀichée en violet et entre crochets, et le chemin du
 > dossier courant en cyan
 >
-> ![](tp_files/media/image14.png){width="6.5in"
-> height="0.13958333333333334in"}
+> ![](tp_files/media/image14.png)
 >
-> ![](tp_files/media/image15.png){width="2.0419520997375327in"
-> height="0.21878062117235345in"}
+> ![](tp_files/media/image15.png)
