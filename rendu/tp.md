@@ -1,4 +1,4 @@
-**Exercice 2. Prise en main de l'interpréteur de commandes**
+##**Exercice 2. Prise en main de l'interpréteur de commandes**
 
 A tout moment, vous pouvez sortir de la VM pour revenir dans le système
 hôte en appuyant sur la touche **CTRL (droite)** du clavier.
@@ -10,8 +10,8 @@ hôte en appuyant sur la touche **CTRL (droite)** du clavier.
 > **which localise une commande, un binaire.**
 
 2.  Quand on consulte une page du manuel, comment peut-on rechercher un
-    > terme (par exemple, chercher le terme option dans la page de
-    > manuel de which ?
+    terme (par exemple, chercher le terme option dans la page de
+    manuel de which ?
 
 > **Il faut appuyer sur « / » puis entrer le terme recherché.**
 
@@ -20,8 +20,8 @@ hôte en appuyant sur la touche **CTRL (droite)** du clavier.
 > **En appuyant sur « q »**
 
 4.  Chaque *section* du manuel a une première page, qui présente le
-    > contenu de la section. Aﬀicher la première page de la section 6 ;
-    > de quoi parle cette section ?
+    contenu de la section. Aﬀicher la première page de la section 6 ;
+    de quoi parle cette section ?
 
 > **La section 6 présente les jeux et programmes annexes disponibles sur
 > le système.**
@@ -59,7 +59,7 @@ hôte en appuyant sur la touche **CTRL (droite)** du clavier.
 ![](tp_files/media/image4.png)
 
 8.  revenez dans votre dossier personnel ; à l'aide de la commande rm,
-    > essayez de supprimer Fichier1, puis Dossier1 ; que se passe-t-il ?
+    essayez de supprimer Fichier1, puis Dossier1 ; que se passe-t-il ?
 
 > **Le « Fichier1 » se supprime mais la commande ne fonctionne pas pour
 > Dossier1 car c'est un chemin et non un fichier.**
@@ -79,14 +79,14 @@ hôte en appuyant sur la touche **CTRL (droite)** du clavier.
 **Commandes importantes**
 
 1.  Quelle commande permet d'aﬀicher l'heure ? A quoi sert la commande
-    > **time** ?
+    **time** ?
 
 > **« date », la commande « time » permet de déterminer le temps que
 > prend une commande pour s'exécuter.**
 
 2.  Dans votre dossier personnel, tapez successivement les commandes
-    > **ls** puis **la** ; que peut-on en déduire sur les fichiers
-    > commençant par un point ?
+    **ls** puis **la** ; que peut-on en déduire sur les fichiers
+    commençant par un point ?
 
 > **Les fichiers commençant par un point son cachés par défaut.**
 
@@ -95,15 +95,15 @@ hôte en appuyant sur la touche **CTRL (droite)** du clavier.
 > **Le programme « ls » se situe dans « /usr/bin/ls ».**
 
 4.  Essayez la commande **ll**. Existe-t-il une entrée de manuel pour
-    > cette commande ? Utilisez les com-mandes **alias** ou **alias**
-    > pour en savoir plus sur la nature de cette commande.
+    cette commande ? Utilisez les com-mandes **alias** ou **alias**
+    pour en savoir plus sur la nature de cette commande.
 
 > **Il n'y a pas d'entrée dans le manuel parce que la commande est une
 > variable d'environnement permettant d'exécuter une autre commande « ls
 > --alF »**
 
 5.  Quelle commande permet d'aﬀicher les fichiers contenus dans le
-    > dossier **/bin** ?
+    dossier **/bin** ?
 
 > **« ls -ap \| grep -v / »**
 
@@ -127,33 +127,33 @@ hôte en appuyant sur la touche **CTRL (droite)** du clavier.
 > le contenu à la fin du fichier à chaque itération.**
 
 10. Interprétez le comportement de la commande **sleep 10 \| echo
-    > \'toto\'** ?
+    \'toto\'** ?
 
 > **La commande écrit « toto » puis attends 10 secondes avant de se
 > terminer.**
 
 11. A quoi sert la commande **file** ? Essayez la sur des fichiers de
-    > types différents.
+    types différents.
 
 > **La commande « file » permet de décrire le type de contenu du
 > fichier.**
 
 12. Créez un fichier **original** qui contient la chaîne **Hello Toto
-    > !** ; créer ensuite un lien **lien_phy** vers ce fichier avec la
-    > commande **ln original lien_phy**. Modifiez à présent le contenu
-    > de **original** et aﬀichez le contenu de **lien_phy** :
-    > qu'observe-t-on ? Supprimez le fichier **original** ; quelle
-    > conséquence cela a-t-il sur **lien_phy** ?
+    !** ; créer ensuite un lien **lien_phy** vers ce fichier avec la
+    commande **ln original lien_phy**. Modifiez à présent le contenu
+    de **original** et aﬀichez le contenu de **lien_phy** :
+    qu'observe-t-on ? Supprimez le fichier **original** ; quelle
+    conséquence cela a-t-il sur **lien_phy** ?
 
 > **Le contenu de « lien_phy » se modifie à chaque modification de
 > « original » mais ne disparaît pas lors de la suppression de
 > « original » et garde le dernier contenu de ce dernier.**
 
 13. Créez à présent un lien *symbolique* **lien_sym** sur **lien_phy**
-    > avec la commande **ln -s lien_phy lien_sym**. Modifiez le contenu
-    > de **lien_phy** ; quelle conséquence pour **lien_sym** ? Et
-    > inversement ? Supprimez le fichier **lien_phy** ; quelle
-    > conséquence cela a-t-il sur **lien_sym** ?
+    avec la commande **ln -s lien_phy lien_sym**. Modifiez le contenu
+    de **lien_phy** ; quelle conséquence pour **lien_sym** ? Et
+    inversement ? Supprimez le fichier **lien_phy** ; quelle
+    conséquence cela a-t-il sur **lien_sym** ?
 
 > **La modification du contenu d'un des deux fichiers modifie le contenu
 > de l'autre, la suppression de « lien_phy » a supprimé aussi
@@ -161,14 +161,14 @@ hôte en appuyant sur la touche **CTRL (droite)** du clavier.
 > « ls ».**
 
 14. Aﬀichez à l'écran le fichier **/var/log/syslog**. Quels raccourcis
-    > clavier permettent d'interrompre et reprendre le défilement à
-    > l'écran ?
+    clavier permettent d'interrompre et reprendre le défilement à
+    l'écran ?
 
 > **« CTRL + S » interrompt le défilement tandis que « CTRL + Q » le
 > reprend.**
 
 15. Aﬀichez les 5 premières lignes du fichier **/var/log/syslog**, puis
-    > les 15 dernières, puis seulement les lignes 10 à 20.
+    les 15 dernières, puis seulement les lignes 10 à 20.
 
 > **5 premières lignes :**
 >
@@ -191,7 +191,7 @@ hôte en appuyant sur la touche **CTRL (droite)** du clavier.
 > utilisée en root ou avec un « sudo » pour fonctionner.**
 
 17. Aﬀichez à l'écran le fichier **/etc/passwd** ; que contient-il ?
-    > Quelle commande permet d'aﬀicher la page de manuel de ce fichier ?
+    Quelle commande permet d'aﬀicher la page de manuel de ce fichier ?
 
 > ![](tp_files/media/image8.png)
 >
@@ -201,47 +201,47 @@ hôte en appuyant sur la touche **CTRL (droite)** du clavier.
 > d\'exploitation qui possèdent des processus en cours d\'exécution.**
 
 18. Aﬀichez seulement la première colonne triée par ordre alphabétique
-    > inverse
+    inverse
 
 > ![](tp_files/media/image9.png)
 
 19. Quelle commande nous donne le nombre d'utilisateurs ayant un compte
-    > sur cette machine (pas seulement les utilisateurs connectés) ?
+    sur cette machine (pas seulement les utilisateurs connectés) ?
 
 > **« awk \< /etc/password --F: '{ print \$1}' \| wc --l »**
 
 20. Combien de pages de manuel comportent le mot-clé **conversion** dans
-    > leur description ?
+    leur description ?
 
 > **Aucune description ne contient le mot clé « conversion »**
 >
 > ![](tp_files/media/image10.png)
 
 21. A l'aide de la commande **find**, recherchez tous les fichiers se
-    > nommant **passwd** présents sur la machine
+    nommant **passwd** présents sur la machine
 
 ![](tp_files/media/image11.png)
 
 22. Modifiez la commande précédente pour que la liste des fichiers
-    > trouvés soit enregistrée dans le fichier
-    > **\~/list_passwd_files.txt** et que les erreurs soient redirigées
-    > vers le fichier spécial **/dev/null**
+    trouvés soit enregistrée dans le fichier
+    **\~/list_passwd_files.txt** et que les erreurs soient redirigées
+    vers le fichier spécial **/dev/null**
 
 > **« find / -name passwd \> \~/list_passwd_files.txt 2\> /dev/null »**
 
 23. Dans votre dossier personnel, utilisez la commande **grep** pour
-    > chercher où est défini l'alias **ll** vu précédemment
+    chercher où est défini l'alias **ll** vu précédemment
 
 > **grep -rl alias \~/.bash\* \~/.profile /etc/profile
 > /etc/bash.bashrc**
 
 24. Utilisez la commande **locate** pour trouver le fichier
-    > **history.log**.
+    **history.log**.
 
 > ![](tp_files/media/image12.png)
 
 25. Créer un fichier dans votre dossier personnel puis utilisez locate
-    > pour le trouver. Apparaît-il ? Pourquoi ?
+    pour le trouver. Apparaît-il ? Pourquoi ?
 
 > **Non il n'apparaît pas puisque nous sommes déjà dans le dossier
 > parent du fichier.**
@@ -251,7 +251,7 @@ hôte en appuyant sur la touche **CTRL (droite)** du clavier.
 On peut utiliser jusqu'à 6 shells en parallèle. Ils portent les noms
 **ttyX** (où X va de 1 à 6) et sont accessibles via **Alt + FX**
 
-**Exercice 3. Découverte de l'éditeur de texte nano**
+##**Exercice 3. Découverte de l'éditeur de texte nano**
 
 1.  Copiez le fichier /var/log/syslog dans votre dossier personnel sous
     > le nom log.txt, puis ouvrez-le avec nano
@@ -276,7 +276,7 @@ On peut utiliser jusqu'à 6 shells en parallèle. Ils portent les noms
 
 > **CTRL + X -\> y**
 
-**Exercice 4. Personnalisation du shell**
+##**Exercice 4. Personnalisation du shell**
 
 Le shell par défaut est plutôt austère, mais il existe de nombreux
 moyens de le personnaliser, en modifiant le fichier **\~/.bashrc**.
@@ -287,33 +287,33 @@ moyens de le personnaliser, en modifiant le fichier **\~/.bashrc**.
 > **cp ./.bashrc ./.bashrc_bak**
 
 2.  Editez le fichier **.bashrc** avec nano et décommentez la ligne
-    > **force_color_prompt=yes** pour activer la couleur. Enregistrez le
-    > fichier et quittez nano.
+    **force_color_prompt=yes** pour activer la couleur. Enregistrez le
+    fichier et quittez nano.
 
 > **F6 puis chercher force_color_prompt et décommenter. CTRL + X pour
 > sauvegarder.**
 
 3.  Le fichier **.bashrc** est lu au *démarrage* du shell ; pour le
-    > recharger, il faudrait donc se déconnecter puis se reconnecter ;
-    > mais il existe un autre moyen : la commande **source .bashrc**.
-    > Testez-la, l'invite de commande devrait immédiatement passer en
-    > couleurs.
+    recharger, il faudrait donc se déconnecter puis se reconnecter ;
+    mais il existe un autre moyen : la commande **source .bashrc**.
+    Testez-la, l'invite de commande devrait immédiatement passer en
+    couleurs.
 
 > ![](tp_files/media/image13.png)
 
 4.  Les couleurs par défauts (surtout celle du dossier courant) ne sont
-    > pas très visibles. Dans **.bashrc**, cherchez les lignes
-    > commençant par **PS1=** ; elles indiquent la mise en forme de
-    > l'invite de commande (selon que l'on est en couleurs ou non).
+    pas très visibles. Dans **.bashrc**, cherchez les lignes
+    commençant par **PS1=** ; elles indiquent la mise en forme de
+    l'invite de commande (selon que l'on est en couleurs ou non).
 
-> **Modifiez l'invite de commande pour qu'elle s'aﬀiche sous la forme
-> suivante :**
->
-> \[heure\] - user\@host:chemin_courant\$
->
-> où l'heure est aﬀichée en violet et entre crochets, et le chemin du
-> dossier courant en cyan
->
+**Modifiez l'invite de commande pour qu'elle s'aﬀiche sous la forme
+suivante :**
+
+\[heure\] - user\@host:chemin_courant\$
+
+où l'heure est aﬀichée en violet et entre crochets, et le chemin du
+dossier courant en cyan
+
 > ![](tp_files/media/image14.png)
 >
 > ![](tp_files/media/image15.png)
